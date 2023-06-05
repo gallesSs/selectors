@@ -1,0 +1,38 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1 em {
+    color: red;
+}
+.green {
+    color: green;
+}
+h1 {
+    color: aqua;
+}
+b {
+    font-size: larger;
+}
+p+b {
+    font-size: smaller;
+}
+p>b {
+    background-color: blue;
+}
+#lorem {
+    font-style: italic;
+}
+h6 + p > b {
+    color: blueviolet;
+}
+h3~span {
+    color: burlywood;
+}
+.class1.class2 {
+    background-color: bisque;
+    color: black;
+}
+p > a > b {
+    background-color: black;
+    color: aliceblue;
+}
